@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regisration</title>
+    <style>
+        header {
+            position: absolute;
+            text-align: center;
+        }
+
+        .class1 ul {
+            display: flex;
+            text-align: center;
+            position: absolute;
+            top: 18px;
+            margin-top: 0;
+            padding-left: 450px;
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            text-decoration: solid;
+            text-align: center;
+            color: white;
+            padding: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: -25px;
+        }
+
+        ul li a:hover {
+            color: black;
+        }
+
+
+
+
+        .class2 {
+            top: 190px;
+            position: absolute;
+            margin-left: 90px;
+
+            width: 205vh;
+            height: 95vh;
+            margin-top: -185px;
+            margin-left: 0;
+        }
+
+        .class img {
+            width: 205vh;
+            height: 95vh;
+        }
+
+        .class3 {
+
+            margin-top: 0vh;
+            padding-left: 40px;
+            height: 70vh;
+            padding-top: 30px;
+        }
+
+        h2 {
+            background-color: rgba(43, 15, 202, 0.799);
+            margin-left: 60vh;
+            height: 5vh;
+            width: 70vh;
+            color: white;
+            padding-left: 38px;
+            padding-top: 10px;
+            margin-top: 25px;
+            border-radius: 8px 20px 8px 20px;
+        }
+
+        .class7 img {
+            display: inline;
+            align-items: center;
+            position: absolute;
+            top: 05px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .class4 {
+
+
+            width: 155vh;
+            height: 71vh;
+            padding-left: 50vh;
+            margin-left: -40px;
+            padding-top: 6vh;
+        }
+
+        input[type=text] {
+            width: 20%;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 2px solid rgba(43, 15, 202, 0.799);
+            color: rgba(43, 15, 202, 0.799);
+        }
+
+        input[type=tel] {
+            border: 2px solid rgba(43, 15, 202, 0.799);
+            border: 5px 3px 5px 3px;
+            color: rgba(43, 15, 202, 0.799);
+        }
+
+        input[type=radio] {
+            border-radius: 5px solid rgba(43, 15, 202, 0.799);
+            margin: 05px;
+            margin-left: 90px;
+            font: bolder;
+
+        }
+
+        select {
+            border: 2px solid rgba(43, 15, 202, 0.799);
+            border-radius: 5px;
+            color: rgba(43, 15, 202, 0.799);
+        }
+
+        textarea {
+            border: 2px solid rgba(43, 15, 202, 0.799);
+            border-radius: 5px;
+            color: rgba(43, 15, 202, 0.799);
+        }
+
+        label {
+            padding-left: 20px;
+            font-size: 20px;
+
+            font-weight: bolder;
+
+
+        }
+
+        input[type=submit] {
+            border: 3px solid rgba(43, 15, 202, 0.799);
+            margin-left: 90vh;
+            border-radius: 6px;
+            width: 80px;
+            position: absolute;
+            top: 95%;
+            height: 40px;
+            /* margin-bottom: 130px; */
+        }
+
+        .h2 {
+            display: inline;
+            align-items: center;
+            position: absolute;
+            top: 05px;
+            background-color: rgba(43, 15, 202, 0.799);
+            width: 75vh;
+            height: 10vh;
+            margin-left: 110vh;
+            margin-top: 58vh;
+            padding-left: 20vh;
+            font-size: 39px;
+            border-radius: 10px 30px 10px 30px;
+            color: white;
+
+        }
+
+        .class6 {
+            display: inline;
+            align-items: center;
+            position: absolute;
+            background-color: rgba(43, 15, 202, 0.799);
+            width: 99%;
+            height: 07vh;
+            top: 05px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <!-- <div class="class">
+            <img src="scl4.jpg" alt="">
+
+
+    </div> -->
+
+    <div class="class2">
+        <div class="class3">
+
+            <h2>* STUDENT ADMISSION FORM *</h2>
+            <div class="class4">
+
+                <label for="name"> First Name :</label>
+                <input type="text" id="name" name="First Name" placeholder="Enter your name">
+                <label for="Lname"> Last Name :</label>
+                <input type="text" id="Lname" name="Last Name" placeholder="Enter your last name"><br><br>
+                <label for="name"> Father Name: </label>
+                <input type="text" id="fname" name="Father Name" placeholder="Enter Father Name">
+                <label for="name"> Mother Name: </label>
+                <input type="text" id="mname" name="Mother Name" placeholder="Enter Mother Name"><br><br>
+
+                <label for="phone number"> Phone Number :</label>
+                <input type="tel" id="phone number" name="phone number" placeholder="phone number"
+                    pattern="[o-9]{3}-[0-9]{2}-[0-9]{3}">
+
+                <label for="email">Email id :</label>
+                <input type="text" id="email" name="email" placeholder="enter your mail id"><br><br>
+                <label for="gender">Gender :</label><br>
+                <input type="radio" id="female" name="female">female
+                <br>
+                <input type="radio" id="male" name="male">male
+                <br>
+                <input type="radio" id="other" name="other">other
+                <br><br>
+                <label for="state">State :</label>
+
+                <select name="state" id="state" aria-placeholder="state">
+                    <option value="state" disabled hidden selected>--select--</option>
+                    <option value="Rajsthan">Rajasthan</option>
+                    <option value="up">Uattar Pradesh</option>
+                    <option value="mp">madhya Pradesh</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                </select><br><br>
+                <label for="address">Address :</label><br>
+                <textarea name="address" id="address" cols="70" rows="3"></textarea><br><br>
+                <label for="subject">Subject :</label>
+                <select name="subject" id="subject">
+                    <option value="subject" disabled hidden selected>--select--</option>
+                    <option value="science"> Science</option>
+                    <option value="arts"> Arts</option>
+                    <option value="commerce">commerce </option>
+                    <option value="Agriculture"> Agriculture</option>
+
+
+                </select>
+
+                <input type="submit" value="submit">
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="class6"></div>
+    <div class="class7">
+        <img src="public.png" alt="">
+    </div>
+    <h class="h2">"Progress,not perfection."</h>
+
+    <div class="class1">
+        
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="admission.html">ADMISSION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        
+        
+    </div>
+</section>
+</body>
+
+</html>
